@@ -92,7 +92,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/asus/I01WD/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/asus/I01WD/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/asus/I01WD/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so
+    vendor/asus/I01WD/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so:system/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so \
+    vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so:system/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so \
+    vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libjni_laser.so:system/priv-app/MotorService/lib/arm64/libjni_laser.so \
+    vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libjni_motor.so:system/priv-app/MotorService/lib/arm64/libjni_motor.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -102,6 +106,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
+    MotorService \
     com.qualcomm.location \
     dpmserviceapp \
     ims \
