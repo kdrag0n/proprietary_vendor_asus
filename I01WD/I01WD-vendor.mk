@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/asus/I01WD/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/asus/I01WD/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/asus/I01WD/proprietary/lib64/libAsusMotorDriverHAL.so:system/lib64/libAsusMotorDriverHAL.so \
+    vendor/asus/I01WD/proprietary/lib64/libAsusRGBSensorHAL.so:system/lib64/libAsusRGBSensorHAL.so \
     vendor/asus/I01WD/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/asus/I01WD/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/asus/I01WD/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
@@ -85,6 +87,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/asus/I01WD/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/asus/I01WD/proprietary/lib64/librcc.so:system/lib64/librcc.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_DIT_MSMv1.so:system/lib64/libxditk_DIT_MSMv1.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_DIT_Manager.so:system/lib64/libxditk_DIT_Manager.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_ISP.so:system/lib64/libxditk_ISP.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_arch.so:system/lib64/libxditk_arch.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_ditArchLIB.so:system/lib64/libxditk_ditArchLIB.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_ditBSP.so:system/lib64/libxditk_ditBSP.so \
+    vendor/asus/I01WD/proprietary/lib64/libxditk_ditBSP_JNI.so:system/lib64/libxditk_ditBSP_JNI.so \
     vendor/asus/I01WD/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/asus/I01WD/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/asus/I01WD/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
