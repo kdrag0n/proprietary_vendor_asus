@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/asus/I01WD/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/asus/I01WD/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/asus/I01WD/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/asus/I01WD/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/asus/I01WD/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
     vendor/asus/I01WD/proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar:system/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar \
